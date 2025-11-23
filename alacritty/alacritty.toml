@@ -1,0 +1,27 @@
+general.import = [
+	"~/.config/alacritty/default_color.toml"
+]
+
+[window.padding]
+x = 0
+y = 0
+
+[font]
+
+# size = 10
+size = 14
+
+# Normal font style
+# normal = { family = "Departure Mono", style = "Regular" }  # Default for Linux/BSD: "monospace", Regular
+normal = { family = "JetBrainsMono Nerd Font", style = "Regular" }  # Default for Linux/BSD: "monospace", Regular
+# normal = { family = "Monocraft", style = "Regular" }  # Default for Linux/BSD: "monospace", Regular
+
+# Bold font style
+bold = { style = "Bold" }  # Inherits family from normal, Default style: Bold
+
+# Italic font style
+italic = { style = "Italic" }  # Inherits family from normal, Default style: Italic
+
+# Bold Italic font style
+bold_italic = { style = "Bold Italic" }  # Inherits family from normal, Default style: Bold Italic
+
